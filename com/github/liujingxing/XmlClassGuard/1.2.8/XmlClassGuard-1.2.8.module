@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.liujingxing",
+    "module": "XmlClassGuard",
+    "version": "1.2.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "XmlClassGuard-1.2.8.jar",
+          "url": "XmlClassGuard-1.2.8.jar",
+          "size": 99457,
+          "sha512": "2b3b4383fd48740762ab90958de9475a04087055c5d3022aa56c5410c8e76c93735f9a23e89141d366dc4332195399b2a85123b7457a65548868b7ff0f98c885",
+          "sha256": "c9c427a4dfab21acc622e6b5d8a8bfda8e5659d6521527dd90564c86fba6a75f",
+          "sha1": "1c7439e497f813c24d1ad14f818d080027cedb69",
+          "md5": "dafd7bf7ec594ba869e077cfcc730c83"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "XmlClassGuard-1.2.8.jar",
+          "url": "XmlClassGuard-1.2.8.jar",
+          "size": 99457,
+          "sha512": "2b3b4383fd48740762ab90958de9475a04087055c5d3022aa56c5410c8e76c93735f9a23e89141d366dc4332195399b2a85123b7457a65548868b7ff0f98c885",
+          "sha256": "c9c427a4dfab21acc622e6b5d8a8bfda8e5659d6521527dd90564c86fba6a75f",
+          "sha1": "1c7439e497f813c24d1ad14f818d080027cedb69",
+          "md5": "dafd7bf7ec594ba869e077cfcc730c83"
+        }
+      ]
+    }
+  ]
+}
